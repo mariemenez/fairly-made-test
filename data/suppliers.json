@@ -1,0 +1,14 @@
+{
+  "comment": "The brand's supplier facility registry. A step's `supplierId` must reference one of these, or be null when the facility performing that step is still unknown.",
+  "suppliers": [
+    { "id": "sup_1f3a", "name": "Textil Duarte, Lda.",        "city": "Barcelos",   "countryCode": "PT" },
+    { "id": "sup_2b7c", "name": "Malhas do Ave S.A.",         "city": "Guimarães",  "countryCode": "PT" },
+    { "id": "sup_3e91", "name": "Tintoria Nord Srl",          "city": "Prato",      "countryCode": "IT" },
+    { "id": "sup_4c02", "name": "Anadolu Denim A.Ş.",         "city": "Denizli",    "countryCode": "TR" },
+    { "id": "sup_5d48", "name": "Kaveri Spinning Mills Pvt.", "city": "Coimbatore", "countryCode": "IN" },
+    { "id": "sup_6a15", "name": "Wuxi Fine Yarns Co.",        "city": "Wuxi",       "countryCode": "CN" },
+    { "id": "sup_7f60", "name": "Atelier Rouvray",            "city": "Roubaix",    "countryCode": "FR" },
+    { "id": "sup_8b23", "name": "Biella Worsted Spa",         "city": "Biella",     "countryCode": "IT" },
+    { "id": "sup_9e07", "name": "Label & Trim Solutions Ltd.", "city": "Dhaka",     "countryCode": "BD" }
+  ]
+}

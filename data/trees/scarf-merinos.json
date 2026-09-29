@@ -1,0 +1,63 @@
+{
+  "brand": { "id": "brd_av01", "name": "Atelier Vermeil" },
+  "product": {
+    "id": "prd_ac0031",
+    "name": "Écharpe Laine Mérinos",
+    "reference": "FM-AC-0031",
+    "season": "AW26",
+    "category": "ACCESSORY",
+    "weightGrams": 180,
+    "lastModifiedAt": "2026-09-02T11:05:00.000Z"
+  },
+  "rootItem": {
+    "id": "itm_ac0031_root",
+    "kind": "PRODUCT",
+    "label": "Écharpe Laine Mérinos",
+    "steps": [
+      { "id": "stp_m1", "process": "MAKING",    "supplierId": "sup_7f60", "countryCode": "FR" },
+      { "id": "stp_m2", "process": "FINISHING", "supplierId": "sup_7f60", "countryCode": "FR" }
+    ],
+    "children": [
+      {
+        "id": "itm_ac0031_c1",
+        "kind": "COMPONENT",
+        "label": "Maille mérinos 2 fils",
+        "usageCategory": "MAIN_FABRIC",
+        "usagePercentage": 98,
+        "composition": [
+          { "id": "cmp_s1_1", "rawMaterial": "WOOL_MERINO", "percentage": 100, "originCountryCode": "IT" }
+        ],
+        "steps": [
+          { "id": "stp_n1", "process": "SPINNING", "supplierId": "sup_8b23", "countryCode": "IT" },
+          { "id": "stp_n2", "process": "KNITTING", "supplierId": "sup_7f60", "countryCode": "FR" },
+          { "id": "stp_n3", "process": "DYEING",   "supplierId": null,       "countryCode": null }
+        ],
+        "children": [
+          {
+            "id": "itm_ac0031_m1",
+            "kind": "MATERIAL",
+            "label": "Laine mérinos",
+            "rawMaterial": "WOOL_MERINO",
+            "originCountryCode": "IT",
+            "steps": [
+              { "id": "stp_o1", "process": "FIBER_PRODUCTION", "supplierId": null, "countryCode": null }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "itm_ac0031_c2",
+        "kind": "COMPONENT",
+        "label": "Étiquette tissée",
+        "usageCategory": "LABEL",
+        "usagePercentage": 2,
+        "composition": [
+          { "id": "cmp_s2_1", "rawMaterial": "COTTON_ORGANIC", "percentage": 100, "originCountryCode": null }
+        ],
+        "steps": [],
+        "children": []
+      }
+    ]
+  }
+}

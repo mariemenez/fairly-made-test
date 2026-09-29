@@ -1,0 +1,21 @@
+{
+  "comment": "The processes a step may name, and the item kinds they are normally attached to. Treat this as a controlled vocabulary, not as a hard constraint to enforce.",
+  "processes": [
+    { "code": "FIBER_PRODUCTION", "label": "Fibre production",  "appliesTo": ["MATERIAL"] },
+    { "code": "SPINNING",         "label": "Spinning",          "appliesTo": ["MATERIAL", "COMPONENT"] },
+    { "code": "WEAVING",          "label": "Weaving",           "appliesTo": ["COMPONENT"] },
+    { "code": "KNITTING",         "label": "Knitting",          "appliesTo": ["COMPONENT"] },
+    { "code": "DYEING",           "label": "Dyeing",            "appliesTo": ["COMPONENT", "MATERIAL"] },
+    { "code": "PRINTING",         "label": "Printing",          "appliesTo": ["COMPONENT"] },
+    { "code": "WASHING",          "label": "Washing",           "appliesTo": ["COMPONENT", "PRODUCT"] },
+    { "code": "FINISHING",        "label": "Finishing",         "appliesTo": ["COMPONENT", "PRODUCT"] },
+    { "code": "CUTTING",          "label": "Cutting",           "appliesTo": ["PRODUCT"] },
+    { "code": "MAKING",           "label": "Making / assembly", "appliesTo": ["PRODUCT", "COMPONENT"] },
+    { "code": "PACKAGING",        "label": "Packaging",         "appliesTo": ["PRODUCT"] }
+  ],
+  "rawMaterials": [
+    "COTTON", "COTTON_ORGANIC", "COTTON_RECYCLED", "POLYESTER", "POLYESTER_RECYCLED",
+    "ELASTANE", "VISCOSE", "LINEN", "WOOL_MERINO", "WOOL_RECYCLED", "POLYAMIDE", "SILK", "BRASS"
+  ],
+  "usageCategories": ["MAIN_FABRIC", "SECONDARY_FABRIC", "LINING", "TRIM", "LABEL", "THREAD", "HARDWARE", "PACKAGING"]
+}

@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+
+# Builds
+dist/
+.nuxt/
+.output/
+*.tsbuildinfo
+
+# Environnement et système
+.env
+.DS_Store
+
+# Logs
+*.log

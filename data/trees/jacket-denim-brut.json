@@ -1,0 +1,94 @@
+{
+  "brand": { "id": "brd_av01", "name": "Atelier Vermeil" },
+  "product": {
+    "id": "prd_jk0207",
+    "name": "Veste Denim Brut",
+    "reference": "FM-JK-0207",
+    "season": "AW26",
+    "category": "JACKET",
+    "weightGrams": 640,
+    "lastModifiedAt": "2026-08-29T16:47:00.000Z"
+  },
+  "rootItem": {
+    "id": "itm_jk0207_root",
+    "kind": "PRODUCT",
+    "label": "Veste Denim Brut",
+    "steps": [
+      { "id": "stp_g1", "process": "CUTTING", "supplierId": null,       "countryCode": "TR" },
+      { "id": "stp_g2", "process": "MAKING",  "supplierId": "sup_4c02", "countryCode": "TR" },
+      { "id": "stp_g3", "process": "WASHING", "supplierId": null,       "countryCode": null }
+    ],
+    "children": [
+      {
+        "id": "itm_jk0207_c1",
+        "kind": "COMPONENT",
+        "label": "Denim 12 oz",
+        "usageCategory": "MAIN_FABRIC",
+        "usagePercentage": 88,
+        "composition": [
+          { "id": "cmp_j1_1", "rawMaterial": "COTTON",   "percentage": 96, "originCountryCode": "TR" },
+          { "id": "cmp_j1_2", "rawMaterial": "ELASTANE", "percentage": 2,  "originCountryCode": null }
+        ],
+        "steps": [
+          { "id": "stp_h1", "process": "SPINNING", "supplierId": null,       "countryCode": null },
+          { "id": "stp_h2", "process": "WEAVING",  "supplierId": "sup_4c02", "countryCode": "TR" },
+          { "id": "stp_h3", "process": "DYEING",   "supplierId": "sup_4c02", "countryCode": "TR" }
+        ],
+        "children": [
+          {
+            "id": "itm_jk0207_m1",
+            "kind": "MATERIAL",
+            "label": "Coton conventionnel",
+            "rawMaterial": "COTTON",
+            "originCountryCode": "TR",
+            "steps": [
+              { "id": "stp_i1", "process": "FIBER_PRODUCTION", "supplierId": null, "countryCode": "TR" }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "itm_jk0207_c2",
+        "kind": "COMPONENT",
+        "label": "Doublure de poche",
+        "usageCategory": "LINING",
+        "usagePercentage": 6,
+        "composition": [
+          { "id": "cmp_j2_1", "rawMaterial": "COTTON",    "percentage": 60, "originCountryCode": null },
+          { "id": "cmp_j2_2", "rawMaterial": "POLYESTER", "percentage": 40, "originCountryCode": null }
+        ],
+        "steps": [],
+        "children": []
+      },
+      {
+        "id": "itm_jk0207_c3",
+        "kind": "COMPONENT",
+        "label": "Boutons rivets",
+        "usageCategory": "HARDWARE",
+        "usagePercentage": 4,
+        "composition": [
+          { "id": "cmp_j3_1", "rawMaterial": "BRASS", "percentage": 100, "originCountryCode": "CN" }
+        ],
+        "steps": [
+          { "id": "stp_k1", "process": "MAKING", "supplierId": null, "countryCode": "CN" }
+        ],
+        "children": []
+      },
+      {
+        "id": "itm_jk0207_c4",
+        "kind": "COMPONENT",
+        "label": "Étiquette de composition",
+        "usageCategory": "LABEL",
+        "usagePercentage": 2,
+        "composition": [
+          { "id": "cmp_j4_1", "rawMaterial": "POLYESTER", "percentage": 100, "originCountryCode": null }
+        ],
+        "steps": [
+          { "id": "stp_l1", "process": "PRINTING", "supplierId": "sup_9e07", "countryCode": "BD" }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

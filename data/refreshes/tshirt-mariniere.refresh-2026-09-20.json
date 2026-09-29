@@ -1,0 +1,123 @@
+{
+  "comment": "What our collection system says about FM-TS-0142 on 2026-09-20, after three suppliers answered their forms. This is a FULL tree, not a patch: a refresh always re-emits the whole document. Item and step ids are stable for everything that still exists; anything new gets a new id.",
+  "refreshedAt": "2026-09-20T07:30:00.000Z",
+  "brand": { "id": "brd_av01", "name": "Atelier Vermeil" },
+  "product": {
+    "id": "prd_ts0142",
+    "name": "Marinière Manches Longues",
+    "reference": "FM-TS-0142",
+    "season": "SS26",
+    "category": "T_SHIRT",
+    "weightGrams": 225,
+    "lastModifiedAt": "2026-09-20T07:30:00.000Z"
+  },
+  "rootItem": {
+    "id": "itm_ts0142_root",
+    "kind": "PRODUCT",
+    "label": "Marinière Manches Longues",
+    "steps": [
+      { "id": "stp_a1", "process": "CUTTING", "supplierId": "sup_1f3a", "countryCode": "PT" },
+      { "id": "stp_a2", "process": "MAKING",  "supplierId": "sup_1f3a", "countryCode": "PT" }
+    ],
+    "children": [
+      {
+        "id": "itm_ts0142_c1",
+        "kind": "COMPONENT",
+        "label": "Jersey coton bio 185 g/m²",
+        "usageCategory": "MAIN_FABRIC",
+        "usagePercentage": 82,
+        "composition": [
+          { "id": "cmp_c1_1", "rawMaterial": "COTTON_ORGANIC", "percentage": 92, "originCountryCode": "IN" },
+          { "id": "cmp_c1_2", "rawMaterial": "ELASTANE",       "percentage": 8,  "originCountryCode": "CN" }
+        ],
+        "steps": [
+          { "id": "stp_b1", "process": "KNITTING",  "supplierId": "sup_2b7c", "countryCode": "PT" },
+          { "id": "stp_b2", "process": "DYEING",    "supplierId": "sup_2b7c", "countryCode": "PT" },
+          { "id": "stp_b3", "process": "FINISHING", "supplierId": "sup_1f3a", "countryCode": "PT" }
+        ],
+        "children": [
+          {
+            "id": "itm_ts0142_m1",
+            "kind": "MATERIAL",
+            "label": "Coton biologique",
+            "rawMaterial": "COTTON_ORGANIC",
+            "originCountryCode": "IN",
+            "steps": [
+              { "id": "stp_c1", "process": "FIBER_PRODUCTION", "supplierId": "sup_5d48", "countryCode": "IN" },
+              { "id": "stp_c2", "process": "SPINNING",         "supplierId": "sup_5d48", "countryCode": "IN" }
+            ],
+            "children": []
+          },
+          {
+            "id": "itm_ts0142_m2",
+            "kind": "MATERIAL",
+            "label": "Élasthanne",
+            "rawMaterial": "ELASTANE",
+            "originCountryCode": "CN",
+            "steps": [
+              { "id": "stp_c3", "process": "SPINNING", "supplierId": "sup_6a15", "countryCode": "CN" }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "itm_ts0142_c2",
+        "kind": "COMPONENT",
+        "label": "Bord-côte col",
+        "usageCategory": "TRIM",
+        "usagePercentage": 8,
+        "composition": [
+          { "id": "cmp_c2_1", "rawMaterial": "COTTON_ORGANIC", "percentage": 97, "originCountryCode": "IN" },
+          { "id": "cmp_c2_2", "rawMaterial": "ELASTANE",       "percentage": 3,  "originCountryCode": null }
+        ],
+        "steps": [
+          { "id": "stp_d1", "process": "KNITTING", "supplierId": "sup_2b7c", "countryCode": "PT" }
+        ],
+        "children": []
+      },
+      {
+        "id": "itm_ts0142_c3",
+        "kind": "COMPONENT",
+        "label": "Fil à coudre",
+        "usageCategory": "THREAD",
+        "usagePercentage": 6,
+        "composition": [
+          { "id": "cmp_c3_1", "rawMaterial": "POLYESTER_RECYCLED", "percentage": 100, "originCountryCode": "CN" }
+        ],
+        "steps": [
+          { "id": "stp_e1", "process": "SPINNING", "supplierId": "sup_6a15", "countryCode": "CN" }
+        ],
+        "children": []
+      },
+      {
+        "id": "itm_ts0142_c4",
+        "kind": "COMPONENT",
+        "label": "Étiquette tissée",
+        "usageCategory": "LABEL",
+        "usagePercentage": 2,
+        "composition": [
+          { "id": "cmp_c4_1", "rawMaterial": "POLYESTER", "percentage": 100, "originCountryCode": null }
+        ],
+        "steps": [
+          { "id": "stp_f1", "process": "WEAVING", "supplierId": "sup_9e07", "countryCode": "BD" }
+        ],
+        "children": []
+      },
+      {
+        "id": "itm_ts0142_c5",
+        "kind": "COMPONENT",
+        "label": "Renfort col thermocollant",
+        "usageCategory": "SECONDARY_FABRIC",
+        "usagePercentage": 2,
+        "composition": [
+          { "id": "cmp_c5_1", "rawMaterial": "POLYESTER", "percentage": 100, "originCountryCode": "CN" }
+        ],
+        "steps": [
+          { "id": "stp_p1", "process": "WEAVING", "supplierId": null, "countryCode": "CN" }
+        ],
+        "children": []
+      }
+    ]
+  }
+}
